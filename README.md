@@ -1,10 +1,15 @@
 # Cloud Portfolio
-Personal portfolio site hosted on AWS S3.
-Built as part of a cloud engineering learning path targeting 
-software and cloud engineering roles at innovative tech/industrial companies.
+Personal portfolio site with serverless contact form built on AWS.
 
 ## Live Site
-](https://d1np7o48xpwrcg.cloudfront.net)
+https://d1np7o48xpwrcg.cloudfront.net
+
+## Architecture
+- AWS S3 — static site hosting
+- AWS CloudFront — global CDN with HTTPS
+- AWS Lambda — serverless contact form handler (Python)
+- AWS API Gateway — REST API endpoint
+- AWS SES — email delivery
+
 ## Stack
-- AWS S3 (Static Website Hosting)
-- HTML/CSS
+HTML, CSS, Python, AWS
