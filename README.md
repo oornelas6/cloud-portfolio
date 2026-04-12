@@ -13,3 +13,7 @@ https://d1np7o48xpwrcg.cloudfront.net
 
 ## Stack
 HTML, CSS, Python, AWS
+
+## Projects
+- Serverless contact form — Lambda + API Gateway + SES
+- Static site with global CDN — S3 + CloudFront
